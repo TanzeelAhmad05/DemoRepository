@@ -2,7 +2,7 @@ var express = require('express');
 var request = require("request");
 var app = express();
 app.use(express.json());
-const port= process.env.Port || 3000;
+const port=3000;
 
 app.post("/meeting", (req, res) => {
 
@@ -14,7 +14,7 @@ app.post("/meeting", (req, res) => {
       type: 1,
     },
 auth: {
-            'bearer': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOm51bGwsImlzcyI6Im9SUmxKbFZ2UWJTSFppMW1OVmVlM3ciLCJleHAiOjE2MDI3NjMwODksImlhdCI6MTYwMjc1NzY5MH0.n_I8fAj1HFyPElzPwmBM8diVO-t4p_foRamDW5xYlqk'
+            'bearer': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOm51bGwsImlzcyI6Im9SUmxKbFZ2UWJTSFppMW1OVmVlM3ciLCJleHAiOjE2MDI3NjgzMTcsImlhdCI6MTYwMjc2MjkxN30.88cLLGUHbCirg882qTPHAT0tB-oMPqP3hgDB8p5fl3I'
     },
     headers: {
       "User-Agent": "Zoom-api-Jwt-Request",
