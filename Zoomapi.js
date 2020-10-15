@@ -14,7 +14,7 @@ app.post("/meeting", (req, res) => {
       type: 1,
     },
 auth: {
-            'bearer': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOm51bGwsImlzcyI6Im9SUmxKbFZ2UWJTSFppMW1OVmVlM3ciLCJleHAiOjE2MDI2OTA5ODksImlhdCI6MTYwMjY4NTU5MH0.61B0WAtHIJKEovwuRnL6iDeh1t0SecwWshBUhG-kADM'
+            'bearer': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOm51bGwsImlzcyI6Im9SUmxKbFZ2UWJTSFppMW1OVmVlM3ciLCJleHAiOjE2MDI3NjMwODksImlhdCI6MTYwMjc1NzY5MH0.n_I8fAj1HFyPElzPwmBM8diVO-t4p_foRamDW5xYlqk'
     },
     headers: {
       "User-Agent": "Zoom-api-Jwt-Request",
